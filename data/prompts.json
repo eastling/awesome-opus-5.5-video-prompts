@@ -1,0 +1,2064 @@
+{
+  "categories": [
+    {
+      "id": "showreel",
+      "name": "Motion Design Showreels",
+      "blurb": "The prompt that started the trend, and the variations people built on it."
+    },
+    {
+      "id": "launch",
+      "name": "Product Launch & SaaS Promos",
+      "blurb": "Launch films, teasers and ads for products, apps and open-source projects."
+    },
+    {
+      "id": "ui",
+      "name": "UI Motion & App Walkthroughs",
+      "blurb": "Interfaces that morph, click and scroll: product UI as the hero of the video."
+    },
+    {
+      "id": "social",
+      "name": "Social Shorts & Vertical Ads",
+      "blurb": "9:16 edits, story ads and fast-cut shorts made for the feed."
+    },
+    {
+      "id": "intro",
+      "name": "Logo Reveals, Intros & Kinetic Type",
+      "blurb": "Logo builds, title sequences, identity bumpers and typography-driven pieces."
+    },
+    {
+      "id": "explainer",
+      "name": "Explainers & Education",
+      "blurb": "Concepts, recipes, data and how-tos turned into animated lessons."
+    },
+    {
+      "id": "story",
+      "name": "Storytelling & Animated Shorts",
+      "blurb": "Short films, trailers and narrative pieces in hand-drawn, paper and anime styles."
+    },
+    {
+      "id": "music",
+      "name": "Music Videos & Audio-Reactive",
+      "blurb": "Lyric videos, demoscene demos and visuals synced to a track."
+    },
+    {
+      "id": "3d",
+      "name": "3D Worlds & Scenes",
+      "blurb": "Three.js and WebGL scenes: historical reconstructions, explorable worlds, particle landscapes."
+    },
+    {
+      "id": "generative",
+      "name": "Shaders, Particles & Generative Art",
+      "blurb": "Open-ended visual showpieces: fireworks, fractals, pixel art and mosaics."
+    },
+    {
+      "id": "games",
+      "name": "Games & Interactive",
+      "blurb": "Playable prototypes and game-style reward moments built in the browser."
+    }
+  ],
+  "templates": [
+    {
+      "id": "showreel",
+      "title": "Motion showreel",
+      "blurb": "Show off: 4–6 techniques and a title card.",
+      "format": "16:9",
+      "duration": 15,
+      "prompt": "A dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. Go all out.",
+      "structure": "a fast sequence of 4–6 visually distinct ideas, each using a different technique, tied together with transitions and ending on a title card"
+    },
+    {
+      "id": "launch",
+      "title": "Product launch",
+      "blurb": "Hook, product reveal, three features, call to action.",
+      "format": "16:9",
+      "duration": 30,
+      "prompt": "Launch video for Lumen, an app that turns meeting notes into tasks. Headline: \"Meetings that do the work.\" Features: auto-assigned tasks, Slack sync, weekly digest. End with lumen.app",
+      "structure": "hook in the first 10%, product name reveal, one beat per feature with a simple UI-like illustration, end card with the call to action held for the last 15%"
+    },
+    {
+      "id": "ui-demo",
+      "title": "App walkthrough",
+      "blurb": "A cursor clicks through your product's UI.",
+      "format": "16:9",
+      "duration": 30,
+      "prompt": "A walkthrough of Northwind, a CRM for small agencies: open the dashboard, click a client, drag a deal to \"Won\", watch revenue update. End with \"Northwind — your pipeline, finally calm.\"",
+      "structure": "recreate a clean, believable app UI with canvas shapes (sidebar, header, cards, lists, charts); an animated cursor performs 3–4 actions with clicks and state changes; zoom in on the key moment; end with the product name and tagline"
+    },
+    {
+      "id": "social",
+      "title": "Social ad 9:16",
+      "blurb": "Vertical, punchy, hook in the first second.",
+      "format": "9:16",
+      "duration": 15,
+      "prompt": "A punchy vertical ad for Brewly cold brew: hook in the first second, then \"50% less sugar, 100% the kick\", end with \"Try it at brewly.co\"",
+      "structure": "a hook in the first second, 3–4 quick beats with big centred type, a final call-to-action card; designed for a phone screen"
+    },
+    {
+      "id": "logo",
+      "title": "Logo reveal",
+      "blurb": "An abstract build-up that resolves into your wordmark.",
+      "format": "16:9",
+      "duration": 10,
+      "prompt": "A premium logo reveal for NORTHWIND with the tagline \"Built for the long haul.\"",
+      "structure": "abstract shapes and light build tension, converge into the wordmark, then the tagline; hold the final lockup for the last 25%"
+    },
+    {
+      "id": "explainer",
+      "title": "Explainer",
+      "blurb": "A concept in clear, animated steps.",
+      "format": "16:9",
+      "duration": 30,
+      "prompt": "Explain how compound interest works in three steps: you invest, your returns earn returns, growth speeds up over time.",
+      "structure": "title card, then one numbered step per scene with a simple diagram that builds up, then a one-line summary"
+    },
+    {
+      "id": "data",
+      "title": "Data story",
+      "blurb": "Count-ups and self-drawing charts.",
+      "format": "16:9",
+      "duration": 15,
+      "prompt": "Animate our year in numbers: 12,480 new users, revenue up 214%, 99.98% uptime. Theme: celebratory but credible.",
+      "structure": "one metric per beat using count-ups and self-drawing charts, then a closing takeaway line"
+    },
+    {
+      "id": "world",
+      "title": "3D world",
+      "blurb": "A cinematic camera move through a place or era.",
+      "format": "16:9",
+      "duration": 15,
+      "prompt": "A cinematic flight over a 1920s harbour town at golden hour: fog on the water, warm window lights coming on, ending on the title \"Harbourlight\".",
+      "structure": "a Three.js (or carefully projected canvas) 3D scene with atmospheric lighting and fog; 2–3 continuous camera moves (dolly, crane, orbit) instead of cuts; a restrained title overlay at the end"
+    },
+    {
+      "id": "game",
+      "title": "Game moment",
+      "blurb": "Card reveals, level-ups and trailer beats.",
+      "format": "16:9",
+      "duration": 15,
+      "prompt": "A gacha reveal for my mobile game Star Summon: a glowing pack bursts open, an SSR card for the hero Noctis flips over, stats count up, then the logo.",
+      "structure": "anticipation (charging glow, shaking), an explosive reveal with light rays and particles, the reward shown clearly with its stats or rarity, then the game logo"
+    },
+    {
+      "id": "quote",
+      "title": "Kinetic quote",
+      "blurb": "A quote or lyric animated word by word.",
+      "format": "9:16",
+      "duration": 15,
+      "prompt": "Animate this quote word by word: \"Make it work, make it right, make it fast.\" — Kent Beck",
+      "structure": "words or short phrases appear in rhythm, with emphasis words given bigger type and a distinct motion, the attribution last"
+    },
+    {
+      "id": "howto",
+      "title": "Recipe & how-to",
+      "blurb": "Ingredients, steps and timers, like a recipe card.",
+      "format": "9:16",
+      "duration": 30,
+      "prompt": "A recipe card for 10-minute garlic noodles: ingredients appear one by one, then 4 steps with timers, ending with the finished bowl.",
+      "structure": "title, an ingredient list that builds up, numbered steps with simple illustrations and timers, a finished-result card"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "2103315922098470926",
+      "category": "showreel",
+      "title": "The original showreel prompt",
+      "note": "The one-liner that started the trend. It is short on purpose and leaves every creative call to the model.",
+      "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.",
+      "truncated": false,
+      "lang": "English",
+      "author": "stephanlivera",
+      "authorName": "Stephan Livera",
+      "postUrl": "https://x.com/stephanlivera/status/2103315922098470926",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103315748496302080/img/eScXkusmi5doSQFo.jpg",
+      "likes": 16983,
+      "format": "16:9",
+      "duration": 15,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103723183899852885",
+      "category": "showreel",
+      "title": "Showreel about your product",
+      "note": "Same idea, but the model reads your product pages first and writes the script itself.",
+      "prompt": "Make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are. The content should focus on [your product]. You should visit the pages first to learn about the product, then write the video content yourself.",
+      "truncated": false,
+      "lang": "English",
+      "author": "ann_nnng",
+      "authorName": "Ann Nguyen",
+      "postUrl": "https://x.com/ann_nnng/status/2103723183899852885",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103721031798325248/img/AQACnSg93oS7mh4T.jpg",
+      "likes": 985,
+      "format": "16:9",
+      "duration": 15,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103538744695693512",
+      "category": "showreel",
+      "title": "Showreel with a soundtrack synthesized in code",
+      "note": "Adds a code-composed score with every cut on the beat, rendered to a 1080p60 MP4.",
+      "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.\n\ncompose the soundtrack yourself, fully synthesized in code. no samples, no audio files, no VST instruments. every cut and transition must land on the beat.\n\n1920x1080, 60fps. render the final video with the music mixed in as an MP4 and tell me where it's saved.",
+      "truncated": false,
+      "lang": "English",
+      "author": "prasenx",
+      "authorName": "Prasenjit",
+      "postUrl": "https://x.com/prasenx/status/2103538744695693512",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103537567853666304/img/0aV5KGQ8E6aPmgLx.jpg",
+      "likes": 198,
+      "format": "16:9",
+      "duration": 15,
+      "tags": [
+        "shader",
+        "canvas",
+        "audio"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103742861971726495",
+      "category": "showreel",
+      "title": "Showreel with a technique checklist",
+      "note": "Names the techniques to show (kinetic type, masking, fluids, particles…), so the reel covers more ground.",
+      "prompt": "Create a bold, dynamic 15-second motion graphics showreel that feels like the ultimate portfolio piece of an exceptionally talented motion designer. Showcase a wide range of advanced techniques: kinetic typography, smooth transitions, 2D and 3D animation, abstract geometry, fluid simulations, particles, distortion, creative masking, compositing, lighting, depth, and seamless camera movement. Keep the pacing fast, confident, and visually surprising, with every shot transitioning naturally into the next. Make it feel meticulously art-directed rather than like a random collection of effects. Push…",
+      "truncated": true,
+      "lang": "English",
+      "author": "lukasersil",
+      "authorName": "Lukáš Eršil",
+      "postUrl": "https://x.com/lukasersil/status/2103742861971726495",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103741580578295808/img/ZX8e_CdESlqGSX-y.jpg",
+      "likes": 71,
+      "format": "16:9",
+      "duration": 15,
+      "tags": [
+        "threejs",
+        "shader",
+        "canvas",
+        "svg"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103783134206566862",
+      "category": "showreel",
+      "title": "Fill-in-the-blanks showreel template",
+      "note": "Brackets for length, topic and brand colors. The easiest one here to reuse.",
+      "prompt": "Make a dynamic [24]-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a resume. Go all out.\n\nOnly about [TOPIC]. Style: [BRAND COLORS], sound synced to the cuts.",
+      "truncated": false,
+      "lang": "English",
+      "author": "polydao",
+      "authorName": "Mr. Buzzoni",
+      "postUrl": "https://x.com/polydao/status/2103783134206566862",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103693209062842368/img/u5o0IpLmvX0atbtS.jpg",
+      "likes": 59,
+      "format": "16:9",
+      "duration": 24,
+      "tags": [
+        "canvas",
+        "svg"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103552840027304046",
+      "category": "showreel",
+      "title": "Résumé reel that promotes a brand",
+      "note": "Spells out the structure: a hook in the first second, a run of distinct techniques, a clean final frame.",
+      "prompt": "You're a world-class motion designer, and this is your 15-second résumé reel. Make it dynamic and confident: open with a striking hook in the first second, build through a sequence of distinct techniques (typography, shape play, camera moves, colour shifts), and land on a clean, memorable final frame. Pacing should feel like it's cut to music. Go crazy.\n\nMake it promote our brand, reflex. inc. Proceed as if you were starting with zero of my tools. Do not assume that the tools we already have are the best to use, as they might be outdated.",
+      "truncated": false,
+      "lang": "English",
+      "author": "reflex_cloud",
+      "authorName": "Reflex",
+      "postUrl": "https://x.com/reflex_cloud/status/2103552840027304046",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103552536779141120/img/GxhY3z6FxpK20ymG.jpg",
+      "likes": 5,
+      "format": "16:9",
+      "duration": 15,
+      "tags": [
+        "shader",
+        "webgl",
+        "canvas",
+        "css"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103846630088716687",
+      "category": "showreel",
+      "title": "Showreel with an audience of 10,000",
+      "note": "Raises the stakes by telling the model who will watch it.",
+      "prompt": "I’m curious to see how strong you are as a motion designer. To prove it, create a polished 15-second animated graphic video that showcases your motion design skills. This piece will be presented to 10,000 people on X, so make it visually compelling, professional, and memorable. Take full creative freedom and make the strongest result you can",
+      "truncated": false,
+      "lang": "English",
+      "author": "Dannnnnok",
+      "authorName": "Tasher",
+      "postUrl": "https://x.com/Dannnnnok/status/2103846630088716687",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103781198417788928/img/wGOsQjt4SWpmNrE4.jpg",
+      "likes": 14,
+      "format": "16:9",
+      "duration": 20,
+      "tags": [
+        "threejs",
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103563538828832979",
+      "category": "showreel",
+      "title": "Psychedelic, hypnotic showreel",
+      "note": "The original prompt plus one style direction.",
+      "prompt": "make a dynamic 20-second motion graphics video that shows what an incredible motion designer you are, psychedelic and hypnotic. make it feel like a showreel piece. go all out.",
+      "truncated": false,
+      "lang": "English",
+      "author": "monokern",
+      "authorName": "monokern",
+      "postUrl": "https://x.com/monokern/status/2103563538828832979",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103563440631476224/img/DjAROE6KswcU3o4s.jpg",
+      "likes": 55,
+      "format": "16:9",
+      "duration": 20,
+      "tags": [
+        "shader",
+        "webgl",
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103638102333858193",
+      "category": "showreel",
+      "title": "Autonomous showreel for a project",
+      "note": "Research first, make every decision alone, and deliver several versions.",
+      "prompt": "make a dynamic 30-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out. Topic: Kody. Goal: make it click for people.\n\nStart with research. You make all decisions. Feel free to make multiple videos. Output to my Dropbox and message me on discord with links.",
+      "truncated": false,
+      "lang": "English",
+      "author": "kentcdodds",
+      "authorName": "Kent C. Dodds 🐨",
+      "postUrl": "https://x.com/kentcdodds/status/2103638102333858193",
+      "poster": "https://pbs.twimg.com/media/HTGewiSbkAAYD0o.jpg",
+      "likes": 295,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2102787937482252537",
+      "category": "launch",
+      "title": "Slick startup video in one line",
+      "note": "One sentence and no assets. A useful baseline before you add detail.",
+      "prompt": "make a modern slick and punchy video for a modern startup that works on inference",
+      "truncated": false,
+      "lang": "English",
+      "author": "deedydas",
+      "authorName": "Deedy",
+      "postUrl": "https://x.com/deedydas/status/2102787937482252537",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102787906494668800/img/agrbxvHg24w3nJQD.jpg",
+      "likes": 3263,
+      "format": "16:9",
+      "duration": 26,
+      "tags": [
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103835273813496100",
+      "category": "launch",
+      "title": "Apple-keynote launch film in one continuous take",
+      "note": "Opens with an \"Ask me for\" list, so the model gathers your assets before it builds. Each scene grows out of the last, with no cuts or fades.",
+      "prompt": "Ask me for: a one-word brand name for the wordmark (a verb works best), 9 to 12 high-res photos, a royalty-free song around 120 BPM with a drop and a quiet breakdown (Mixkit, free for commercial use), and a free stock clip of a plain wall with moving plant shadows (Pexels).\n\nAn Apple-keynote launch film, 2D only, one continuous take. Every scene is made out of the previous one: nothing fades, blurs or cuts. Objects change shape instead: text rises out of a mask line, icons pop from zero on a spring, bars draw across, pages push, and a black shape floods the whole…",
+      "truncated": true,
+      "lang": "English",
+      "author": "twoclipping",
+      "authorName": "zero",
+      "postUrl": "https://x.com/twoclipping/status/2103835273813496100",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103830256347910144/img/YsUzKmE5XqGD9NZR.jpg",
+      "likes": 2090,
+      "format": "1:1",
+      "duration": 29,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2102554209166000267",
+      "category": "launch",
+      "title": "High-end minimal launch film with real footage",
+      "note": "Strict rules: one idea per shot, one accent color, and an explicit list of banned effects.",
+      "prompt": "Ask me for: the product name and a one-line promise, 3 to 5 UI moments to show, one accent color, 10 to 20 real vertical clips I own, and a royalty-free song with a clear drop (e.g. Mixkit, free for commercial use).\n\nHigh-end minimal. One idea per shot, lots of empty space, one accent color, one clean sans (Geist or Inter) with tight tracking. Masked type reveals, match cuts, one smooth camera language. Real footage only, never placeholder cards. No full stops in on-screen text.\nBanned: shockwave rings, particle bursts, RGB split, camera shake, lens flares, neon…",
+      "truncated": true,
+      "lang": "English",
+      "author": "twoclipping",
+      "authorName": "zero",
+      "postUrl": "https://x.com/twoclipping/status/2102554209166000267",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102553635750125568/img/FhzzVrDbiRbpVBMN.jpg",
+      "likes": 608,
+      "format": "16:9",
+      "duration": 20,
+      "tags": [
+        "svg",
+        "css"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103066071838466494",
+      "category": "launch",
+      "title": "SaaS launch video with real brand assets",
+      "note": "One of the most copied prompts. Replace \"go find some SaaS\" with your own URL.",
+      "prompt": "I want you to create a highly professional SaaS product launch video. Go and find some SaaS, preferably just one that people know, so it's easier to identify with it. Pick that, and then make sure to get actual assets and images and all of that stuff from the internet. Turn it into these typical, very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter when they launch new SaaS products (which are showing off the features, the benefits, and all of these things).",
+      "truncated": false,
+      "lang": "English",
+      "author": "moritzkremb",
+      "authorName": "Moritz Kremb",
+      "postUrl": "https://x.com/moritzkremb/status/2103066071838466494",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103066013323624448/img/0dC1iLcOk74La4jK.jpg",
+      "likes": 418,
+      "format": "16:9",
+      "duration": 46,
+      "tags": [
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103604431627452427",
+      "category": "launch",
+      "title": "Beat-synced launch video",
+      "note": "Asks for every cut and animation hit to land on a beat, retimed until it does.",
+      "prompt": "You're a world-class motion designer building a Supademo launch video. Research and land our core value and narrative. Scenes should be dynamic and confident: hook in the first second, then distinct beats for product proof and AI. Brand-accurate UI, type, color, and motion. Score the music so every cut, animation hit, and scene change lands on a beat or drop; retimed until synced. Social energy, quick cuts",
+      "truncated": false,
+      "lang": "English",
+      "author": "jhylee95",
+      "authorName": "Joseph Lee 🇰🇷🇨🇦",
+      "postUrl": "https://x.com/jhylee95/status/2103604431627452427",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103604391110463488/img/osxkfCSj7y1XnXjU.jpg",
+      "likes": 12,
+      "format": "16:9",
+      "duration": 24,
+      "tags": [
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103237884564414633",
+      "category": "launch",
+      "title": "Slow, polished teaser on one Mac desktop",
+      "note": "Precise camera timing: 1.5–3 s moves on gentle easing, \"half the speed you'd default to\".",
+      "prompt": "Using HyperFrames, make a hype teaser for the product in this post - [link]. Landscape, around 27 seconds. Match the product UI, wallpaper and copy from the post's video\n\nMotion should feel slow and polished - one continuous camera over one Mac desktop, no hard cuts. Camera pushes, pulls and pans run like 1.5 to 3 seconds on gentle ease-in-out curves, nothing snappy - aim for half the speed you'd default to. Add motion blur on fast moves and a light film grain finish. Use an oversized macOS cursor. No audio. All on-screen copy lowercase like the post.\n\n1. Open on a big centered line - \"in the…",
+      "truncated": true,
+      "lang": "English",
+      "author": "jake11moran",
+      "authorName": "Jake Moran",
+      "postUrl": "https://x.com/jake11moran/status/2103237884564414633",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103237577138692096/img/H2c936Vj7VIhyhHx.jpg",
+      "likes": 40,
+      "format": "16:9",
+      "duration": 27,
+      "tags": [
+        "canvas",
+        "svg",
+        "gsap",
+        "ai-image"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103801834930606193",
+      "category": "launch",
+      "title": "Music-product film at 1080p and 60 fps",
+      "note": "A self-contained brief with exact output specs. It tells the model not to stop at a storyboard.",
+      "prompt": "Create a complete, polished Spotify-themed motion graphics video from the following brief. This prompt is self-contained: no reference video or supplied assets are required.\n\n An 18-second MP4 at 1920×1080 and true 60 fps, with music and subtle sound effects Complete editable source Build, render, inspect, and refine the animation before delivering it Do not stop at a storyboard, still images, or an implementation plan\n\nA premium music-product film presented inside a large, nearly black rounded rectangular stage\nThe stage occupies roughly 80% of the…",
+      "truncated": true,
+      "lang": "English",
+      "author": "brainextends",
+      "authorName": "Brain",
+      "postUrl": "https://x.com/brainextends/status/2103801834930606193",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103801393534652417/img/duzCcucyFHeAlkgx.jpg",
+      "likes": 37,
+      "format": "16:9",
+      "duration": 18,
+      "tags": [
+        "shader",
+        "svg"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103840883812733090",
+      "category": "launch",
+      "title": "Developer-tool launch film",
+      "note": "Gives the model a feature list to treat as the source of truth.",
+      "prompt": "Create and render a 15-second motion graphics video introducing TanStack AI. Make it feel like a premium\n  developer-tool launch film produced by Studio1: fast, precise, visually surprising, and polished enough to open a\n  keynote or lead a social campaign.\n\n  Use the TanStack AI feature details below as the source of truth. Studio1 is presenting the film; do not imply\n  Studi…",
+      "truncated": true,
+      "lang": "English",
+      "author": "HowDevelop",
+      "authorName": "Shivay Lamba",
+      "postUrl": "https://x.com/HowDevelop/status/2103840883812733090",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103840297352343552/img/Kj0kNOm6nI-7e3mP.jpg",
+      "likes": 24,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103831140033241156",
+      "category": "launch",
+      "title": "README hero video for an open-source project",
+      "note": "The showreel formula pointed at a GitHub project and its tagline.",
+      "prompt": "Make a dynamic 20-second motion graphics launch video for my open-source project jev-browser-skill ('Give a site. Write a goal. Jev clicks.'), like it's the hero video on its GitHub README. Go all out.",
+      "truncated": false,
+      "lang": "English",
+      "author": "hqmank",
+      "authorName": "Kai",
+      "postUrl": "https://x.com/hqmank/status/2103831140033241156",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103830793105629184/img/NppYefNdZaT8GZxN.jpg",
+      "likes": 28,
+      "format": "16:9",
+      "duration": 23,
+      "tags": [
+        "canvas",
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103802280617402509",
+      "category": "launch",
+      "title": "Milestone celebration video",
+      "note": "A one-line brief built around a single number.",
+      "prompt": "Create a launch video for MotionSites AI, just hit 1 million monthly visitors after 8 months after launch.",
+      "truncated": false,
+      "lang": "English",
+      "author": "viktoroddy",
+      "authorName": "Viktor Oddy",
+      "postUrl": "https://x.com/viktoroddy/status/2103802280617402509",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103800410326945792/img/vjPCCzyDFZ6EfMOG.jpg",
+      "likes": 104,
+      "format": "16:9",
+      "duration": 54,
+      "tags": [
+        "canvas",
+        "svg",
+        "gsap",
+        "css"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103746736980378066",
+      "category": "launch",
+      "title": "Ad inspired by Apple's \"1984\"",
+      "note": "References a famous ad for tone, and bans the border text and frames that look AI-made.",
+      "prompt": "create a 30 second ad for Opus 5.5 inspired by Apple 1984 ad, iykyk! avoid the border text or frames!",
+      "truncated": false,
+      "lang": "English",
+      "author": "1littlecoder",
+      "authorName": "1LittleCoder💻",
+      "postUrl": "https://x.com/1littlecoder/status/2103746736980378066",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103746474064683008/img/Hh__w6n4fEy2-50Q.jpg",
+      "likes": 51,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103792769982427263",
+      "category": "launch",
+      "title": "Retro-futuristic launch with film grain and CRT",
+      "note": "Uses an image only as a mood reference, plus two concrete finishing effects.",
+      "prompt": "use this image only as a style/vibe refference image and create a Opus 5.5 launch video (20 sec long) add film grain and CRT effect, make it mesmerizing, and show off your skills as a motion designer for a retro/futuristic style launch video 16:9",
+      "truncated": false,
+      "lang": "English",
+      "author": "johnsavage_ai",
+      "authorName": "John Savage",
+      "postUrl": "https://x.com/johnsavage_ai/status/2103792769982427263",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103792270361149441/img/iIhoOmjlD8QVKzI-.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 20,
+      "tags": [
+        "threejs",
+        "shader",
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103273003555402193",
+      "category": "ui",
+      "title": "One shape, many UI states",
+      "note": "A single element morphs through 8–12 interface states, driven by a cursor, with no cuts. Widely remixed.",
+      "prompt": "Ask me for: 8 to 12 UI states I want the shape to become (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), pure black and white or one accent color, and a royalty-free song around 120 BPM (e.g. Mixkit, free for commercial use).\n\nDribbble-level UI motion. One shape, never cut: every state is the same element morphing its size, radius and color while its content swaps with a short blur. A cursor drives every change with real clicks and drags. Light warm-gray canvas, black and white components, one clean UI font (Geist). Springs eve…",
+      "truncated": true,
+      "lang": "English",
+      "author": "twoclipping",
+      "authorName": "zero",
+      "postUrl": "https://x.com/twoclipping/status/2103273003555402193",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103272964967804928/img/DTuQzS4NOGKMbTDA.jpg",
+      "likes": 12025,
+      "format": "1:1",
+      "duration": 14,
+      "tags": [
+        "svg"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103483957266268381",
+      "category": "ui",
+      "title": "UI story film with one draw(t) function",
+      "note": "Adds engineering rules for frame-perfect rendering: one canvas, one draw(t), no timers and no state between frames.",
+      "prompt": "Ask me for:\n• my product + URL\n• 8–12 UI states that tell its story\n• the real data shown in each state\n• brand colors + fonts + accent color\n• required formats (1:1, 16:9, 9:16)\n\nOne HTML file. One canvas\nOne draw(t) function\n\nNo CSS transitions\nNo timers\nNo state carried between frames\n\nOne shape, never cut\n\nEvery state is the same element changing size, radius and color while the content swaps\n\nA cursor drives the sequence with real clicks, typing and one drag\n\nReal UI. Real data. No placeholders.\n\n120 BPM grid\n\nSomething happens on e…",
+      "truncated": true,
+      "lang": "English",
+      "author": "verbove",
+      "authorName": "Martijn Verbove",
+      "postUrl": "https://x.com/verbove/status/2103483957266268381",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103483857836134400/img/ymXwmW0WgvP80pxi.jpg",
+      "likes": 218,
+      "format": "1:1",
+      "duration": 20,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103571096549433425",
+      "category": "ui",
+      "title": "Product promo built from your real UI",
+      "note": "The one-shape style, but the model studies your live site and uses its actual components.",
+      "prompt": "Analyze http://sprites.ai and build a product promo from our own UI, not generic components.\n\nDribbble-level UI motion. One shape, never cut: every state is the same element morphing its size, radius and color while its content swaps with a short blur. A cursor drives every change with real clicks and drags. Warm-gray canvas, black and white components, one accent (#FD9543), Geist. Springs everywhere, a tiny overshoot at most. The camera zooms so each state fills the frame. Last frame = first frame, so it loops.\nBanned: bouncy easing, particles, glows, gradients on UI chrome, misma…",
+      "truncated": true,
+      "lang": "English",
+      "author": "AnnaCher___",
+      "authorName": "Anna Cher",
+      "postUrl": "https://x.com/AnnaCher___/status/2103571096549433425",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103570995806375936/img/sleoZ_IcPyEwLMh-.jpg",
+      "likes": 11,
+      "format": "1:1",
+      "duration": 42,
+      "tags": [
+        "svg"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103516567824966114",
+      "category": "ui",
+      "title": "Pokédex-style UI morph",
+      "note": "A themed remix of the one-shape prompt: a Poké Ball turns into every interface component.",
+      "prompt": "Ask me for: my featured Pokémon or starter trio, 8–12 Pokémon-themed UI states, and a royalty-free song around 120 BPM with a playful adventure or electronic feel. Confirm that the song’s license permits the intended use.Default palette: warm off-white, black, and Poké Ball red. Pokémon artwork keeps its original colors.\n\nA Pokémon-inspired UI motion film with Dribbble-level polish. Imagine a beautifully designed modern Pokédex: playful, precise, and instantly http://recognizable.One shape, never cut: a Poké Ball continuously morphs into every interface component…",
+      "truncated": true,
+      "lang": "English",
+      "author": "TheGrootDev",
+      "authorName": "MadDev 🪾",
+      "postUrl": "https://x.com/TheGrootDev/status/2103516567824966114",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103516534241120256/img/la4WoyATEbAUArza.jpg",
+      "likes": 1,
+      "format": "1:1",
+      "duration": 14,
+      "tags": [
+        "svg"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103290592679879074",
+      "category": "ui",
+      "title": "Zoom-through trading terminal",
+      "note": "Starts from a single dot, opens app windows, zooms out to space and back into a phone.",
+      "prompt": "create a self contained aesthetically pleasing, breathtaking animation of the Sahi Trading Terminal. it should start with a single dot on a black screen and then have multiple windows show up on the screen such as Charts, Positons , Option Chain, Watchlist. And zoom into and out at multiple scales. Finally the camera zooms out to make the desktop look like a point in space. And then it zooms back in to reveal a mobile screen in landscape mode with a chart in one half and an option chain in another. The video ends in Sjngle Screen Trading on SAHI\nuse javascript for it. be detailed and accurate.…",
+      "truncated": true,
+      "lang": "English",
+      "author": "dale_vaz",
+      "authorName": "Dale Vaz",
+      "postUrl": "https://x.com/dale_vaz/status/2103290592679879074",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103290544978075648/img/SVMM1B952HzqpI61.jpg",
+      "likes": 24,
+      "format": "16:9",
+      "duration": 47,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2102847039415476517",
+      "category": "ui",
+      "title": "Walkthrough of a full user workflow",
+      "note": "Lists each step of the user journey so the video tells the product's story in order.",
+      "prompt": "I Want you to make a modern slick and punchy video for\nhttp://\ndatagran.io with an example of a user creating a chatgpt ads campaign, then connecting their metrics, understanding attribution, then connecting a voice agent to it, the agent responding, then doing follow up, adding humans in the loop and then providing analytics.",
+      "truncated": false,
+      "lang": "English",
+      "author": "charlesmendez",
+      "authorName": "Carlos Mendez",
+      "postUrl": "https://x.com/charlesmendez/status/2102847039415476517",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102846646199484416/img/Lqpr3tLZjGObH9ts.jpg",
+      "likes": 0,
+      "format": "16:9",
+      "duration": 57,
+      "tags": [
+        "canvas",
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103739079745827092",
+      "category": "ui",
+      "title": "Badge unlock screen from a Figma frame",
+      "note": "Matches a design file exactly and adds only motion: a tilting 3D badge and gold particles.",
+      "prompt": "Using the linked Figma frame build a badge unlock screen. Match the design exactly. Use the file's assets, lighting, type and layout and add only the motion. Animate the badge so it feels premium and celebratory. Build its scene and then celebrate with gold particles. Treat the badge as a solid 3D object that tilts toward the\ncursor following the rules of physics. Keep it fast and smooth, it should not be bouncy.",
+      "truncated": false,
+      "lang": "English",
+      "author": "BThreeAgency",
+      "authorName": "Ritu",
+      "postUrl": "https://x.com/BThreeAgency/status/2103739079745827092",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103737876165054464/img/Nzr3PQ_8Q6MS6kl_.jpg",
+      "likes": 10,
+      "format": "16:9",
+      "duration": 11,
+      "tags": [
+        "canvas",
+        "svg",
+        "css"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103459843831120030",
+      "category": "ui",
+      "title": "X-ray cursor reveal for a product header",
+      "note": "A detailed spec for a React header where the cursor wipes away the exterior to show what's inside.",
+      "prompt": "# OBLT E-bike Header\n\nA full-viewport, dark, cinematic e-bike product header for the brand **OBLT**, built in React (client component) with pure CSS and an interactive cursor-following \"x-ray\" spotlight reveal — moving the mouse wipes away the bike's exterior photo to expose its internal carbon/gearbox structure underneath. Built with React only (no animation libraries).\n\n## Tech stack (libraries actually imported)\n- React only — `useRef`, `useState`, and the `MouseEvent` type. No framer-motion, no GSAP, no icon library. All animation is hand-written CSS keyframes + an inline CSS `mask-image`.…",
+      "truncated": true,
+      "lang": "English",
+      "author": "iamtanzil_",
+      "authorName": "Tanzil Chowdhury",
+      "postUrl": "https://x.com/iamtanzil_/status/2103459843831120030",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103459551538475008/img/5meyILiq7rycyzC-.jpg",
+      "likes": 16,
+      "format": "16:9",
+      "duration": 13,
+      "tags": [
+        "canvas",
+        "css"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103820321673675031",
+      "category": "ui",
+      "title": "Scroll-scrubbed 3D hero header",
+      "note": "A video that plays frame by frame as you scroll, with timed overlays.",
+      "prompt": "# Auren Header\n\nA cinematic, scroll-scrubbed 3D hero header for the luxury/fantasy brand \"AUREN\" where a full-screen background video plays frame-by-frame as the user scrolls through a 500vh section, with sequential timed overlays (title, description, feature cards, final title) revealing themselves at specific video timestamps.\n\n## Tech stack\n- React 18+ with \"use client\" directive (Next.js App Router compatible)\n- framer-motion (all overlay entrance/exit animations, AnimatePresence, staggered per-character reveals)\n- gsap + gsap/ScrollTrigger (scroll-driven scrubbing that maps scroll progres…",
+      "truncated": true,
+      "lang": "English",
+      "author": "iamtanzil_",
+      "authorName": "Tanzil Chowdhury",
+      "postUrl": "https://x.com/iamtanzil_/status/2103820321673675031",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103820194527477760/img/VeRaZbOdZodNE7j6.jpg",
+      "likes": 7,
+      "format": "16:9",
+      "duration": 12,
+      "tags": [
+        "threejs",
+        "gsap"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103275618045686217",
+      "category": "social",
+      "title": "Production-grade social promo",
+      "note": "Short brief, vertical format, and a clear quality bar.",
+      "prompt": "make a punchy and modern short video for social that promotes @lightspark capabilities. Needs to be production grade with sound",
+      "truncated": false,
+      "lang": "English",
+      "author": "davidmarcus",
+      "authorName": "David Marcus",
+      "postUrl": "https://x.com/davidmarcus/status/2103275618045686217",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103275588102537216/img/XBVUX6UkVQNuB2ek.jpg",
+      "likes": 283,
+      "format": "9:16",
+      "duration": 23,
+      "tags": [
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103144778481475686",
+      "category": "social",
+      "title": "Talking-head clip into a punchy edit",
+      "note": "Hand the model raw footage and ask for subtitles, graphics and music.",
+      "prompt": "Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music",
+      "truncated": false,
+      "lang": "English",
+      "author": "sab8a",
+      "authorName": "Sabba Keynejad",
+      "postUrl": "https://x.com/sab8a/status/2103144778481475686",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103144418165538817/img/7XT3rMnErm6GYZ3I.jpg",
+      "likes": 291,
+      "format": "16:9",
+      "duration": 37,
+      "tags": [
+        "canvas",
+        "ai-image"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103132260589338762",
+      "category": "social",
+      "title": "9:16 story ad starring your mascot",
+      "note": "Uses existing character assets for a short story that ends on the app.",
+      "prompt": "can you help me use the pig assets on new branch of lovelee to make a 9:16 short story animation with sound effects about the pig sending his partner love notes in the mailbox and make it fun and good tease app at end?",
+      "truncated": false,
+      "lang": "English",
+      "author": "jackfriks",
+      "authorName": "jack friks",
+      "postUrl": "https://x.com/jackfriks/status/2103132260589338762",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103131986701230082/img/9PcFlH2KPZDZVz_U.jpg",
+      "likes": 163,
+      "format": "9:16",
+      "duration": 20,
+      "tags": [
+        "canvas",
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103664956482941143",
+      "category": "social",
+      "title": "Chaotic brain-rot short in Python",
+      "note": "Generated with Python and rendered with ffmpeg, told from the model's own point of view.",
+      "prompt": "Use Python to generate a 9:16 chaotic brain rot video with excellent motion + sound design and render it using ffmpeg. Put your own personal spin on it so it’s aligned with Anthropic’s new launch. Also fully express what it’s like to be a very creative LLM used by me every day from your POV to give it some extra personality.",
+      "truncated": false,
+      "lang": "English",
+      "author": "kloss_xyz",
+      "authorName": "klöss",
+      "postUrl": "https://x.com/kloss_xyz/status/2103664956482941143",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103664773103857664/img/i8n7bMMjWm9izUWi.jpg",
+      "likes": 54,
+      "format": "9:16",
+      "duration": 154,
+      "tags": [
+        "canvas",
+        "audio"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103846311149936736",
+      "category": "social",
+      "title": "Vertical ad that simulates everyday spending",
+      "note": "Limits the toolchain to JavaScript, Playwright and FFmpeg.",
+      "prompt": "Use apenas: JavaScript, Playwright e FFmpeg. Faça um vídeo moderno, elegante e impactante para meu produto (https://lp.meuorbe.com.br). Quero que simule os gastos em estabelecimentos do dia a dia, como mercado, posto de gasolina e restaurante.\n\nFaça no formato 9:16.",
+      "truncated": false,
+      "lang": "Portuguese",
+      "author": "felipemoller",
+      "authorName": "Felipe Möller",
+      "postUrl": "https://x.com/felipemoller/status/2103846311149936736",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103846156685979648/img/a4gC5AH5tIZe1EWy.jpg",
+      "likes": 0,
+      "format": "9:16",
+      "duration": 30,
+      "tags": [
+        "threejs",
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103802871934497266",
+      "category": "intro",
+      "title": "Low-poly logo assembly",
+      "note": "Wireframe first, then faceted shards fly in one by one until the logo is built.",
+      "prompt": "Create a motion design video of a slow-reveal transition. Draw the logo as a wireframe first, then fly in faceted low-poly shards one by one until they assemble the logo. Finish by bringing in the app icon background and typing out the brand name.",
+      "truncated": false,
+      "lang": "English",
+      "author": "Mounnna",
+      "authorName": "Abdul kaioum",
+      "postUrl": "https://x.com/Mounnna/status/2103802871934497266",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103802493985808384/img/F_h8mEY82oXmLOFU.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 16,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103603025579331584",
+      "category": "intro",
+      "title": "Turn a logo into a 10-second reel",
+      "note": "Two sentences and a reference video.",
+      "prompt": "Make this PayBox logo into a reel. Pretend you are a world-class motion designer. Make a 10-second dynamic video like the reference",
+      "truncated": false,
+      "lang": "English",
+      "author": "0xValure",
+      "authorName": "Valure",
+      "postUrl": "https://x.com/0xValure/status/2103603025579331584",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103601210154426368/img/lb_4iGplcPUtFbhZ.jpg",
+      "likes": 37,
+      "format": "16:9",
+      "duration": 10,
+      "tags": [
+        "threejs",
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103565090721259981",
+      "category": "intro",
+      "title": "Title sequence for a thriller that doesn't exist",
+      "note": "Sets the bar with a single comparison: \"like it won an Emmy for main title design\".",
+      "prompt": "Make a 20-second title sequence for a Netflix thriller that doesn't exist yet. Make it feel like it won an Emmy for main title design.",
+      "truncated": false,
+      "lang": "English",
+      "author": "abhinayguptha",
+      "authorName": "Abhinay Guptha",
+      "postUrl": "https://x.com/abhinayguptha/status/2103565090721259981",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103564849188069376/img/w4D7_UKSw3SlXVJB.jpg",
+      "likes": 0,
+      "format": "16:9",
+      "duration": 20,
+      "tags": [
+        "shader",
+        "webgl",
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103411244468498547",
+      "category": "intro",
+      "title": "Loopable kinetic identity bumper",
+      "note": "Exactly 20 s, first frame equals last frame, styled like a street poster that moves.",
+      "prompt": "You are a world-class motion designer doing a 20.00s kinetic identity bumper for TechHalla — an AI creator known for stealable workflows, not vibes. This piece must feel like the best designer in the room made a street-poster that moves. Showreel stakes: if this is weak, you don’t get hired.\n\nDURATION: exactly 20.00 seconds. LOOPABLE: frame 0 == frame last (position, opacity, cursor if any).\nFORMAT: one HTML file, 1080×1080 (square, X-native). 60fps.\nPALETTE (strict):\n- bg # 0A0A0A\n- magenta # FF2BD6\n- acid green # B8FF00\n- white # F5F5F5 only for primary readable type when needed\nNo other hue…",
+      "truncated": true,
+      "lang": "English",
+      "author": "techhalla",
+      "authorName": "TechHalla",
+      "postUrl": "https://x.com/techhalla/status/2103411244468498547",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103409564657885184/img/yzB3EAzZHx4veQ_X.jpg",
+      "likes": 270,
+      "format": "1:1",
+      "duration": 20,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103458245213929495",
+      "category": "intro",
+      "title": "Kinetic spoken-word film",
+      "note": "Typography builds the frame line by line, with hex colors and art direction spelled out.",
+      "prompt": "Create a 20.00-second kinetic spoken-word film titled “BUILD THE FLOOR.”  Treat this as an original miniature speech staged entirely through typography. Every line changes the architecture of the frame. The final declaration must stand on something the earlier words physically constructed.  Deliver one self-contained HTML file, 1080×1080, targeting 60fps, using SVG and/or Canvas. Embed all required assets.  ART DIRECTION Background #102820. Paper # F4E9D5. Structural accent # F2B544. A literary editorial world with the scale and confidence of a public monument. Use a high-contrast serif for th…",
+      "truncated": true,
+      "lang": "English",
+      "author": "Gdgtify",
+      "authorName": "Gadgetify",
+      "postUrl": "https://x.com/Gdgtify/status/2103458245213929495",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103442907357233152/img/Yob1ZkvwuXtjuzFW.jpg",
+      "likes": 11,
+      "format": "1:1",
+      "duration": 20,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103565104243712107",
+      "category": "intro",
+      "title": "Motion graphics manifesto",
+      "note": "One quoted line, with every frame and sound written in code.",
+      "prompt": "make a 20-second motion graphics manifesto for DreamFort: \"superintelligence should belong to everyone\". every frame and every sound written in code, no image or video models.",
+      "truncated": false,
+      "lang": "English",
+      "author": "advait_jayant",
+      "authorName": "Advait",
+      "postUrl": "https://x.com/advait_jayant/status/2103565104243712107",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103564346336890880/img/qVMJAK_fBnWZYBGu.jpg",
+      "likes": 9,
+      "format": "16:9",
+      "duration": 20,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103459971174130104",
+      "category": "intro",
+      "title": "15-second intro for your X account",
+      "note": "Uses your logo and cover image as inputs.",
+      "prompt": "I want to know how good a graphic designer you are. To prove this to me, I want you to prepare a 15-second motion graphics video. I want you to do an introduction related to my account. I'm sharing my logo and my X cover image, use those too.",
+      "truncated": false,
+      "lang": "English",
+      "author": "fire_ozgur",
+      "authorName": "FIRE - Finansal Özgür",
+      "postUrl": "https://x.com/fire_ozgur/status/2103459971174130104",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103459235879059456/img/YuXk72J_lWynhi7U.jpg",
+      "likes": 116,
+      "format": "9:16",
+      "duration": 15,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103587706999914649",
+      "category": "intro",
+      "title": "\"Who are you?\" in 10 seconds",
+      "note": "Asks the model to portray itself, and avoid the corner labels that give away AI video.",
+      "prompt": "make a dynamic 10-second motion graphics video that shows who are you as Opus 5.5 - be as creative and dynamic as possible. Avoid the frames and texts on the corners which are typical ai made giveaways!",
+      "truncated": false,
+      "lang": "English",
+      "author": "1littlecoder",
+      "authorName": "1LittleCoder💻",
+      "postUrl": "https://x.com/1littlecoder/status/2103587706999914649",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103587570198495233/img/6qTkGcxF0eI0-1Tz.jpg",
+      "likes": 42,
+      "format": "16:9",
+      "duration": 10,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103688362960019567",
+      "category": "explainer",
+      "title": "Recursion, explained recursively",
+      "note": "Every explanation switches to a different visual style. Self-referential by design.",
+      "prompt": "A video explaining recursion, where every explanation about recursion has a radically different video style, make this self-referential & clever & fast moving.",
+      "truncated": false,
+      "lang": "English",
+      "author": "emollick",
+      "authorName": "Ethan Mollick",
+      "postUrl": "https://x.com/emollick/status/2103688362960019567",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103687838420131840/img/HC_R1rLMlIn0SvvN.jpg",
+      "likes": 554,
+      "format": "16:9",
+      "duration": 75,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103499977632997524",
+      "category": "explainer",
+      "title": "30-second business explainer template",
+      "note": "Five fixed scenes: the problem, what you do, three steps, one proof point, your name.",
+      "prompt": "Adopt the role of an expert motion designer. Build a 30-second animated explainer for my business as a single HTML page. 5 scenes. The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end. Bold text, smooth transitions, my brand colours. My business [DESCRIBE WHAT YOU SELL, WHO IT'S FOR AND YOUR COLOURS]",
+      "truncated": false,
+      "lang": "English",
+      "author": "alex_prompter",
+      "authorName": "Alex Prompter",
+      "postUrl": "https://x.com/alex_prompter/status/2103499977632997524",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103499934280585216/img/Q9KDv9vq9R-KuDaY.jpg",
+      "likes": 371,
+      "format": "16:9",
+      "duration": 35,
+      "tags": [
+        "svg",
+        "gsap"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2102853258582880547",
+      "category": "explainer",
+      "title": "Cocktail recipe, empty glass to finished drink",
+      "note": "Ingredients and measurements appear as they go into the glass.",
+      "prompt": "We're going to try a little test. Do you think you could render a recipe motion graphic animation using javascript or html (w/e you think will produce the best) to show the full recipe from start to finish (empty glass to completed cocktail) - Explainer video style - Showing the recipe ingreidents + measurements as they're going into the cup. Should be a 30s video.",
+      "truncated": false,
+      "lang": "English",
+      "author": "Ror_Fly",
+      "authorName": "Rory Flynn",
+      "postUrl": "https://x.com/Ror_Fly/status/2102853258582880547",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102853041246347264/img/R5bqQTGaMotWD0xk.jpg",
+      "likes": 1024,
+      "format": "1:1",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103667481139441895",
+      "category": "explainer",
+      "title": "Whiteboard explainer of a physics concept",
+      "note": "A hand-drawn whiteboard lesson, then a second prompt for narration.",
+      "prompt": "Do a quick hand-drawn whiteboard animations explaining what is replica symmetry breaking in the SK model\n\nPrompt 2: build the mp4 version with narration",
+      "truncated": false,
+      "lang": "English",
+      "author": "tak3sh8",
+      "authorName": "Dersu",
+      "postUrl": "https://x.com/tak3sh8/status/2103667481139441895",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103667426126921728/img/_KptIiR-oF8fZ70T.jpg",
+      "likes": 20,
+      "format": "16:9",
+      "duration": 308,
+      "tags": [
+        "canvas",
+        "audio"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103629247751618782",
+      "category": "explainer",
+      "title": "Autonomous storybook explainer",
+      "note": "The model works alone end to end and reports its decisions afterwards.",
+      "prompt": "I want you to make a 60-second, fully animated explainer video, end to end, completely on your own. I'm stepping away from my computer, so work autonomously until it's done. Don't stop to ask me questions; make the calls yourself and tell me what you decided at the end.\n\nTopic: the journey of photons\n\nStyle: whimsical, charming, storybook. Give the photon a personality. It should feel like a professional motion-design studio made it, not \"AI video\". The whole thing should be a pure JavaScript animation, rendered from code frame by frame. Don't use AI video generators for the visuals. I've see…",
+      "truncated": true,
+      "lang": "English",
+      "author": "AstroTheWizard",
+      "authorName": "AstroTheWizard",
+      "postUrl": "https://x.com/AstroTheWizard/status/2103629247751618782",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103628961095839744/img/-P_Xzhz7sXvYtXdF.jpg",
+      "likes": 17,
+      "format": "16:9",
+      "duration": 60,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103206747846701462",
+      "category": "explainer",
+      "title": "Token-bucket rate limiter, frame by frame",
+      "note": "Canvas only, and every frame is a pure function of time so it renders reliably.",
+      "prompt": "explain a token bucket rate limiter, canvas only, no libraries, every frame a pure function of time so my renderer can screenshot it.",
+      "truncated": false,
+      "lang": "English",
+      "author": "ParkerRex",
+      "authorName": "Parker Rex",
+      "postUrl": "https://x.com/ParkerRex/status/2103206747846701462",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103205278728474624/img/D6ih3lsu4WkYEIfK.jpg",
+      "likes": 0,
+      "format": "1:1",
+      "duration": 18,
+      "tags": [
+        "canvas",
+        "physics"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103678647777230877",
+      "category": "explainer",
+      "title": "Data story with a pencil look",
+      "note": "Pulls real data, draws it in pencil style, and composes a melody with a JavaScript synth.",
+      "prompt": "All right, this is an empty repo. Make me a 3-minute animated visualization using JavaScript, or you can do it in TypeScript if you want, about Japan's hot weather in 2026. Pull some online data to see why it was hot and how it compares to other years. I really want the animation to be visually appealing. I wanted to use a hand-drawn pencil style with a little bit of tasteful chromatic aberration. And maybe a bit of a pastiche look but it's supposed to look really, really cool. Also, use a JavaScript synthesizer to make a melody for this visualization that goes along with the theme.",
+      "truncated": false,
+      "lang": "English",
+      "author": "GroundControl",
+      "authorName": "Rafael Mendiola",
+      "postUrl": "https://x.com/GroundControl/status/2103678647777230877",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103677581761368064/img/yYwSzw639tJ7a9lK.jpg",
+      "likes": 4,
+      "format": "16:9",
+      "duration": 180,
+      "tags": [
+        "canvas",
+        "audio"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103542568361369810",
+      "category": "explainer",
+      "title": "How backlinks work for SEO",
+      "note": "A one-line topic brief.",
+      "prompt": "create an insightful, yet state of the art video visualization for how backlinks work for SEO",
+      "truncated": false,
+      "lang": "English",
+      "author": "stewchan2",
+      "authorName": "Chandler",
+      "postUrl": "https://x.com/stewchan2/status/2103542568361369810",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103542046715772928/img/PWlPQD-Hy5KEb7Qy.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 114,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103237989065277590",
+      "category": "explainer",
+      "title": "History of a landmark with GSAP",
+      "note": "Combines a Wikipedia source, local images and a named animation library.",
+      "prompt": "Render a fun motion graphic animation using the GSAP animation platform (see below) to show a brief history of The Sphere in Las Vegas from start to today (start with a minimal architecture to completed venue) - Explainer video style - Talk about how bands now play there, The Wizard of Oz film and next how on Oct 1 2026 Metallica will make their debut - and guess who is attending? We are! Should be a 30-60s video depending on the info. Use the images in the folder.\n\nSphere History:\nhttps://en.wikipedia.org/wiki/Sphere_(venue)\n\nAnimation Platforms:\nhttps://gsap.com/\n\nAsk me any questions if you…",
+      "truncated": true,
+      "lang": "English",
+      "author": "RetropunkAI",
+      "authorName": "Retropunk",
+      "postUrl": "https://x.com/RetropunkAI/status/2103237989065277590",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103235968073437184/img/Yl8_SUZolXRQuqnz.jpg",
+      "likes": 3,
+      "format": "9:16",
+      "duration": 60,
+      "tags": [
+        "canvas",
+        "svg",
+        "gsap",
+        "ai-image"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103146389412917572",
+      "category": "explainer",
+      "title": "Three-step product how-to in drawing style",
+      "note": "The steps are listed in the prompt, so the structure is fixed.",
+      "prompt": "build me a 30s drawing style animated clip about submitting a product to AppSumo via your agent.\n\nsteps are:\n1. connect your agent\n2. your agent fills out your listing and sets up redemption\n3. go live!",
+      "truncated": false,
+      "lang": "English",
+      "author": "mattbean",
+      "authorName": "Matt Bean",
+      "postUrl": "https://x.com/mattbean/status/2103146389412917572",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103146130402062336/img/xeoRxXNdQ9BWmzdr.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2102743212922384673",
+      "category": "story",
+      "title": "Origami history of civilization",
+      "note": "Doodle style with almost no text, so viewers from any culture can follow it.",
+      "prompt": "Create a short origami / doodle-style animation showing humanity’s development, progress, and civilization from birth to the present, and ultimately the hatching of AI. AI then gradually develops and advances, eventually hatching today’s Opus 5.5 (you). Style: doodly, cute, warm, strongly narrative, no spoken language (simple text is OK, but don’t use too much explanatory/narrative text, because I want different civilizations to be able to understand it), poetic, moving, high quality.",
+      "truncated": false,
+      "lang": "English",
+      "author": "songkeys",
+      "authorName": "songkeys 🐿️🦋@song.work",
+      "postUrl": "https://x.com/songkeys/status/2102743212922384673",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102741054378360832/img/ItsKEXtZ75UNOn3v.jpg",
+      "likes": 423,
+      "format": "16:9",
+      "duration": 108,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2102592355165782312",
+      "category": "story",
+      "title": "Sand animation of 250 years of history",
+      "note": "Asks for music and sound design along with the visuals.",
+      "prompt": "Make a 2-minute sand animation that tells the story of 250 years of U.S. history. Keep it lively, engaging, and tasteful. Add appropriate background music and sound design.",
+      "truncated": false,
+      "lang": "English",
+      "author": "Michaelzsguo",
+      "authorName": "Michael Guo",
+      "postUrl": "https://x.com/Michaelzsguo/status/2102592355165782312",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102592220888965120/img/wUEZT8hOqEwK1d1r.jpg",
+      "likes": 349,
+      "format": "16:9",
+      "duration": 120,
+      "tags": [
+        "shader",
+        "canvas"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103124033365762215",
+      "category": "story",
+      "title": "Four seasons outside a train window",
+      "note": "One sentence of scene plus a film-director style reference.",
+      "prompt": "4 seasons passing outside a train window, a cozy carriage, a cup of coffee on the table, Grand Budapest Hotel style",
+      "truncated": false,
+      "lang": "English",
+      "author": "itsolelehmann",
+      "authorName": "Ole Lehmann",
+      "postUrl": "https://x.com/itsolelehmann/status/2103124033365762215",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103123980039458816/img/DDPjksrlzGkxSB1K.jpg",
+      "likes": 264,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103129343253778767",
+      "category": "story",
+      "title": "Infinite-zoom vintage collage",
+      "note": "A looping camera flies through objects into new landscapes. The full sequence is listed.",
+      "prompt": "Build a looping \"infinite zoom\" animation, After Effects style: the camera\ntravels from landscape to landscape by flying through vintage objects.\n\nLOOK: vintage collage realistic photo landscapes + black & white newspaper\ncutout objects (halftone, white paper border, soft shadow). Film grain,\nvignette, light flicker.\n\nWORLDS (loop): snowy mountains → pocket watch (swinging on its chain) →\nsea cliffs → box camera lens → desert dunes → magnifying glass →\nmisty lake → hand mirror → back to start.\nExtras: floating hat, phone, umbrella, gramophone, key; a 1950s man walking\ntoward the watch; a whale…",
+      "truncated": true,
+      "lang": "English",
+      "author": "koldo2k",
+      "authorName": "Koldo Huici",
+      "postUrl": "https://x.com/koldo2k/status/2103129343253778767",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103123431558348801/img/Y0JXLfCRvHmqUs6I.jpg",
+      "likes": 712,
+      "format": "16:9",
+      "duration": 20,
+      "tags": [
+        "canvas",
+        "ai-image"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103019799614034026",
+      "category": "story",
+      "title": "Shadow-theatre short: what makes a place home",
+      "note": "Vertical, paper cut-out style, with audio made in code.",
+      "prompt": "Create a pure javascript animation. 30-60s, vertical 9:16, paper cut-out shadow theatre style with gentle, fitting audio (made in code) on the topic: What makes a place feel like home?",
+      "truncated": false,
+      "lang": "English",
+      "author": "x4b47x",
+      "authorName": "4b47",
+      "postUrl": "https://x.com/x4b47x/status/2103019799614034026",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103019675663683584/img/PMqxPogPtwNvY9wp.jpg",
+      "likes": 0,
+      "format": "9:16",
+      "duration": 57,
+      "tags": [
+        "canvas",
+        "particles",
+        "audio"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2102908742518100086",
+      "category": "story",
+      "title": "Silent short film where sound tells half the story",
+      "note": "One constraint, and the model invents the story.",
+      "prompt": "Make a 45-second silent short film with no dialogue, where sound tells half the story. Invent the story.",
+      "truncated": false,
+      "lang": "English",
+      "author": "KamStudioLabs",
+      "authorName": "Çağrı | KAM Studio",
+      "postUrl": "https://x.com/KamStudioLabs/status/2102908742518100086",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102908515492712448/img/Q0wxrPJpVHsyivlN.jpg",
+      "likes": 0,
+      "format": "16:9",
+      "duration": 46,
+      "tags": [
+        "canvas",
+        "audio"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103713416367981005",
+      "category": "story",
+      "title": "Scene direction for a space-station drama",
+      "note": "Written like a shot list: two camera positions, seven cuts, one event.",
+      "prompt": "SCENE CONTEXT\nNight side of the Earth. A space station in orbit; 📷@mila is inside at a small round porthole, 📷@astronaut floats outside it on a tether, lit by the station's floodlight against black space and the dark Earth with its city lights. They clown for each other through the glass; a meteor flies into the sky behind him and crosses toward the Earth; she hammers the glass and screams to make him turn, and he answers with a heart; he begins a slow turn and the meteor hits while he is halfway round; she watches the impact with one tear. 25 seconds, seven cuts between two camera positions…",
+      "truncated": true,
+      "lang": "English",
+      "author": "alexwtlf",
+      "authorName": "Alex Ibragimov",
+      "postUrl": "https://x.com/alexwtlf/status/2103713416367981005",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103713346792898560/img/M7pqzCnfS4_8oExA.jpg",
+      "likes": 60,
+      "format": "9:16",
+      "duration": 22,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103247844542922825",
+      "category": "story",
+      "title": "Anime-style AI battle trailer",
+      "note": "Action pacing and sound effects in an anime look.",
+      "prompt": "I want to create a highly-detailed video trailer featuring Claude and ChatGPT having a ruthless battle to be the best AI model in the world. Create an engaging story and make it action-paced with proper use of visual and sound effects. Art style must be anime-like.",
+      "truncated": false,
+      "lang": "English",
+      "author": "ishuagra02",
+      "authorName": "Ishu Agrawal",
+      "postUrl": "https://x.com/ishuagra02/status/2103247844542922825",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103245897890967552/img/A-xuBLRBGH45yevL.jpg",
+      "likes": 60,
+      "format": "16:9",
+      "duration": 101,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103112385380667455",
+      "category": "story",
+      "title": "Festival greeting with a mascot character",
+      "note": "Describes the character precisely so it stays recognizable in every shot.",
+      "prompt": "I want you to create a \"Happy Mid-Autumn Festival\" video in hand drawn canvas animation style. You must use the attached Taiwan black bear as the main character representing Taiwan: flat black silhouette, round ears with grey insides, big round white-ringed eyes, white round muzzle with a small black nose and smile, and the white V moon mark on its chest. Keep it recognizable as that exact character. The character will have adventures, fast cuts, zooms, animations going all out in the hand drawn style. But WOW the audience and research how Taiwan celebrates Mid-Autumn to include in this video:…",
+      "truncated": true,
+      "lang": "English",
+      "author": "eric_khun",
+      "authorName": "Eric - add multiplayer to your game in 1 prompt",
+      "postUrl": "https://x.com/eric_khun/status/2103112385380667455",
+      "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2103112348252737536/pu/img/4Oa2iWe7_GUwyBAg.jpg",
+      "likes": 5,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103122292343730437",
+      "category": "story",
+      "title": "What it feels like to be you",
+      "note": "A one-line open prompt about the model itself.",
+      "prompt": "Make a 30s video about what it feels like to be you, using whatever tools you like.",
+      "truncated": false,
+      "lang": "English",
+      "author": "SuryaRajendhran",
+      "authorName": "Surya Rajendhran",
+      "postUrl": "https://x.com/SuryaRajendhran/status/2103122292343730437",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103122019911106560/img/U1FE2h8hSkPIPRZh.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103534482930491441",
+      "category": "music",
+      "title": "Lyric video for an existing song",
+      "note": "Uses the original audio track and leaves the visual language completely open.",
+      "prompt": "I've included an MP4 file and an original link to a video that is called \"Claude Pop.\" It's a pop song that is about increasing rate of progress and the experience of the singularity approaching.\n\nI want you to independently do an end-to-end complete pass on making an updated version of this video. Use the exact same audio track and think and feel very deeply about what is the best way to visually represent all of the lyrics on screen. You do not need to anchor to the current style, you can do truly anything that you think might best let you visually express yourself, including abstract motion…",
+      "truncated": true,
+      "lang": "English",
+      "author": "anabology",
+      "authorName": "anabology",
+      "postUrl": "https://x.com/anabology/status/2103534482930491441",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103533196721704960/img/ILpk1iqxJsJGiDcK.jpg",
+      "likes": 14336,
+      "format": "16:9",
+      "duration": 306,
+      "tags": [
+        "canvas",
+        "ai-image"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2102919394775220530",
+      "category": "music",
+      "title": "1990s demoscene demo",
+      "note": "Analyze the track first, research demoscene effects, then sync scenes to each section.",
+      "prompt": "I would like you to create a kickass, impressive 1990s style demoscene demo using this S3M track as the music. Prior to getting to work, please see how to best play and analyze the S3M track. This will be important since synchronization of effects and appropriateness of scenes to the musical vibe (and this song does have a variety of sections with different attitude) is essential to a great demoscene demo. Also prior to getting started, please research what kinds of effects, physics, etc. would be good to use in combination. Please use C/C++ -- with appropriate demoscene/embedded/console gamed…",
+      "truncated": true,
+      "lang": "English",
+      "author": "gandamu_ml",
+      "authorName": "gandamu",
+      "postUrl": "https://x.com/gandamu_ml/status/2102919394775220530",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102918851176595456/img/rVQ6EwIvD6iMHgOA.jpg",
+      "likes": 776,
+      "format": "16:9",
+      "duration": 383,
+      "tags": [
+        "threejs",
+        "shader",
+        "canvas",
+        "audio"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103697580421181894",
+      "category": "music",
+      "title": "Music video full of references",
+      "note": "Prefers obscure visual references over literal illustrations of the lyrics.",
+      "prompt": "I'd like you to make a music video in a similar style to this one:\n\nhttps://github.com/JohnHeibel/PDoomVideo\n\nTo this song:\n\nhttps://youtu.be/cobZuBii0Z0?si=ada6wxomeJbo-LRl\n\nDon't feel the need to represent everything in the lyrics literally - feel free to include relevant references to concepts, events, and lore in the video, even if obscure (especially if obscure). E.g. when the lyrics say \"when they say they're just predicting tokens...\", you might depict a \"stochastic parrot\". That one's not particularly obscure but is the kind of thing I mean. Instead of depicting like, literally predict…",
+      "truncated": true,
+      "lang": "English",
+      "author": "doubleunplussed",
+      "authorName": "doubleunplussed",
+      "postUrl": "https://x.com/doubleunplussed/status/2103697580421181894",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103695379518967808/img/alJRSYjzfcpeX99w.jpg",
+      "likes": 176,
+      "format": "16:9",
+      "duration": 262,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103570879619686717",
+      "category": "music",
+      "title": "Full-length music video synced to lyrics",
+      "note": "A ballpoint-sketch style and a continuous camera path through the scene.",
+      "prompt": "create a music video for this entire song, check lyrics.txt to sync the visuals to. style should be a mix between monty-python/vox style \"postcards in space\" mixed with sketchy ballpoint pen style visuals. this needs to look professional. theme of the video is a creepy evil pizza parlor, camera starts outside and works through the inside, through a secret bookshelf door into a basement with untold horrors and pizza sauce all over the place. use whatever tools or methods you need to make this look professional. final export should be an .mp4 of the entire music video.\n\nclaude/opus 5.5 detected…",
+      "truncated": true,
+      "lang": "English",
+      "author": "ParanoidAmerica",
+      "authorName": "Paranoid American",
+      "postUrl": "https://x.com/ParanoidAmerica/status/2103570879619686717",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103570572227604480/img/hPLcycf4wajwMDEZ.jpg",
+      "likes": 62,
+      "format": "16:9",
+      "duration": 141,
+      "tags": [
+        "canvas",
+        "ai-image"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2103722556918464968",
+      "category": "music",
+      "title": "Psychedelic glitch MV cut on every beat",
+      "note": "Detailed editing rules: BPM analysis, one cut per beat, effect strength per song section.",
+      "prompt": "添付した楽曲とキャラクター画像を使って、「サイケデリック・グリッチ系」のアニメーション MV を作ってください。\n\n【制作方法】\nHTML Canvas でアニメーションを書き、Playwright で 1 フレームずつキャプチャし、ffmpeg で音声と合成して MP4 を出力してください（1280×720、30fps、30MB 以内）。\nAI 動画生成は使わず、すべてプログラムによるアニメーションで作ってください。\n\n【前処理】\n1. キャラクター画像はすべて背景を透過し、白いステッカー風の縁取りと薄い影をつける。\n2. 楽曲を解析する：BPM、最初の拍の位置、各小節（4 拍）の頭、\n   各セクションのエネルギーの高低（イントロ／A メロ／サビ／落ちる部分）を求める。\n\n【編集ルール】\n- 1 拍ごとにカットを切り替える。カットはランダムにローテーション：全身、\n  バストアップ、目の超アップ、2 ポーズ並び、同じポーズの 5 連（それぞれ色相違い）、シーン画像。\n- 隣り合う 2 拍で同じポーズを使わない。\n- エネルギーが低い箇所はシーン画像や静かなカットにして、ひと息つかせる。\n- エフェクトの強さはセクションに合わせる：イントロ約 40%、A メロ 70%、サビ 100%。\n\n【エフェクト】\n1. 白フラッシュ：毎拍フラッシュしてすぐ消える。小節の 1 拍目が一番強い…",
+      "truncated": true,
+      "lang": "Japanese",
+      "author": "pound75423",
+      "authorName": "Good FortuneX",
+      "postUrl": "https://x.com/pound75423/status/2103722556918464968",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103721284228263936/img/WjA7dDuNXQLo_WEK.jpg",
+      "likes": 3,
+      "format": "16:9",
+      "duration": 64,
+      "tags": [
+        "canvas",
+        "css"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2102899866762440893",
+      "category": "music",
+      "title": "A machine where every note is a collision",
+      "note": "A single sentence that combines physics and music.",
+      "prompt": "Build a 45-second machine that plays an original piece of music, where every note comes from a visible collision.",
+      "truncated": false,
+      "lang": "English",
+      "author": "KamStudioLabs",
+      "authorName": "Çağrı | KAM Studio",
+      "postUrl": "https://x.com/KamStudioLabs/status/2102899866762440893",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102899418798182401/img/Wu6va9cLjJ3fqYG5.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 47,
+      "tags": [
+        "canvas",
+        "physics",
+        "audio"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103336310089842921",
+      "category": "music",
+      "title": "Music video and song in a classic style",
+      "note": "The model writes the song and the video.",
+      "prompt": "Create a 60 second music video in the style of Peter Gabriel's Sledgehammer and Big Time. But use modern references and figures. Also create the song, something sounds like it would fit on Peter Gabriel's So album.",
+      "truncated": false,
+      "lang": "English",
+      "author": "DavidShulmanFL",
+      "authorName": "David Shulman",
+      "postUrl": "https://x.com/DavidShulmanFL/status/2103336310089842921",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103336274031484928/img/WLYweRTsoz7b_hsF.jpg",
+      "likes": 3,
+      "format": "16:9",
+      "duration": 60,
+      "tags": [
+        "threejs",
+        "canvas",
+        "audio"
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "id": "2102466523164274839",
+      "category": "3d",
+      "title": "San Francisco, the day before the 1906 earthquake",
+      "note": "Requires building a source file from maps, film and photos before modeling anything.",
+      "prompt": "Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender.\n\nScope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium.\n\nBefore modeling anything, build a source file from: the 1899-1905 Sanborn fire insurance maps (footprints, heights, materials, occupants), the Miles Brothers film \"A Trip Down Market Street\" (April 1906), period photographs from OpenSFHistory, the Library of Congress and the David Rumsey collection, and USGS topography.…",
+      "truncated": true,
+      "lang": "English",
+      "author": "alexalbert__",
+      "authorName": "Alex Albert",
+      "postUrl": "https://x.com/alexalbert__/status/2102466523164274839",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102465460545675264/img/ILlgAuA7ctODSBai.jpg",
+      "likes": 1133,
+      "format": "16:9",
+      "duration": 8,
+      "tags": [
+        "threejs",
+        "shader",
+        "canvas"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "id": "2103194052850241739",
+      "category": "3d",
+      "title": "Explorable world of surreal architecture",
+      "note": "Exploration only, no combat. Focused on composition and atmosphere.",
+      "prompt": "Create a cinematic browser-based 3D world that can be explored freely with a camera, focused on breathtaking landscapes and extraordinary original architecture. Fill the world with huge strange buildings, monumental structures, surreal ruins, cliffs, valleys, forests, water, and unusual ultra-detailed forms that feel mysterious and awe-inspiring. This is not a game and not combat-focused, the goal is pure exploration, atmosphere, composition, and visual discovery. Make the world feel epic, highly detailed, and completely original, with architecture that looks weird, ambitious, and unforgettabl…",
+      "truncated": true,
+      "lang": "English",
+      "author": "LexnLin",
+      "authorName": "Leon Lin",
+      "postUrl": "https://x.com/LexnLin/status/2103194052850241739",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103193948256616448/img/3tX0bmaxlmTc38iv.jpg",
+      "likes": 619,
+      "format": "16:9",
+      "duration": 84,
+      "tags": [
+        "threejs",
+        "shader"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103119648271290566",
+      "category": "3d",
+      "title": "The most detailed pelican on a bicycle",
+      "note": "Takes the classic model benchmark as far as it goes, with any technique and no time limit.",
+      "prompt": "每次一个新的模型出来呢，大家都让它去画 “鹈鹕骑自行车” 来判断这个模型的空间能力，基本上都是用 HTML、SVG 来画动画。当我实在看得都有审美疲劳了，我希望你能画一个最复杂、最精细、最精美的 “鹈鹕骑自行车”的动画视频，你可以用任何的技术，不用着急，画一天都可以。",
+      "truncated": false,
+      "lang": "Chinese",
+      "author": "AxtonLiu",
+      "authorName": "Axton",
+      "postUrl": "https://x.com/AxtonLiu/status/2103119648271290566",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103119572568313856/img/vedd97bTOFX7F0Qg.jpg",
+      "likes": 69,
+      "format": "16:9",
+      "duration": 38,
+      "tags": [
+        "shader",
+        "webgl"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2102920408743678129",
+      "category": "3d",
+      "title": "Particle-illustration beach by time of day",
+      "note": "Thousands of glowing specks instead of solid fills, with ribbon strokes for motion.",
+      "prompt": "Create a stylistic 3D environment of a busy Santa Monica beach that adapts to the time of day. The art style must be a particle illustration, which uses thousands of tiny glowing specks rather than solid fills with flowing ribbon strokes behind figures to suggest motion.\n\nI had 2-3 more prompts on top of this, but this is a good starting point.\n\nRepo link: https://github.com/ishuagrawal/particle-beach",
+      "truncated": false,
+      "lang": "English",
+      "author": "ishuagra02",
+      "authorName": "Ishu Agrawal",
+      "postUrl": "https://x.com/ishuagra02/status/2102920408743678129",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102920337184694272/img/7oyIS-xiio7Eiutr.jpg",
+      "likes": 16,
+      "format": "16:9",
+      "duration": 60,
+      "tags": [
+        "threejs",
+        "shader",
+        "particles"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2102989395359887481",
+      "category": "3d",
+      "title": "80s-style cartoon in Three.js",
+      "note": "The model writes the story, then animates it in 3D.",
+      "prompt": "I want you to imagine a story. And then using threejs I want you to create full animation, star wars 80s-level quality 90s cartoon out of the story you imagine.",
+      "truncated": false,
+      "lang": "English",
+      "author": "Ryzoft",
+      "authorName": "Ryzoft",
+      "postUrl": "https://x.com/Ryzoft/status/2102989395359887481",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102988926549913600/img/kInfdggF1trcXGVb.jpg",
+      "likes": 5,
+      "format": "16:9",
+      "duration": 295,
+      "tags": [
+        "threejs",
+        "shader",
+        "particles"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103837519615774895",
+      "category": "generative",
+      "title": "Make people say \"wow\"",
+      "note": "No subject and no format, just a high bar.",
+      "prompt": "Build me something when people see it, they will say \"Wow\". Must be immersive, when people see it, they will be stunned by what they see.\n\nThis can be a video, or anything else you can think of.\n\nBe creative. Go wild. Dig deep.\n\nNo AI slop. Something unique, think outside of the box. Think big. Think amazing. Something no other model done before.\n\nBe proud. Show your best. Don't disappoint.",
+      "truncated": false,
+      "lang": "English",
+      "author": "MiaAI_lab",
+      "authorName": "Mia",
+      "postUrl": "https://x.com/MiaAI_lab/status/2103837519615774895",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103835194968973312/img/vTWjv7AbUxDEVaTy.jpg",
+      "likes": 1117,
+      "format": "9:16",
+      "duration": 97,
+      "tags": [
+        "shader",
+        "webgl",
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2102476258948927543",
+      "category": "generative",
+      "title": "Pixel-art wizard casting a spell",
+      "note": "Strict pixel rules: a 128×96 logical canvas, integer scaling, no anti-aliasing.",
+      "prompt": "Create a single self-contained HTML file that renders an animated pixel art wizard casting a spell, using vanilla JavaScript and Canvas 2D. No external assets, libraries, or network requests.\n\nRENDERING\n- Draw everything to an offscreen canvas at a fixed logical resolution of 128x96, then blit to a fullscreen display canvas scaled by the largest integer factor that fits the window, centered, with imageSmoothingEnabled = false and CSS image-rendering: pixelated.\n- All drawing snaps to integer coordinates on the logical canvas. No sub-pixel positions, anti-aliasing, gradients, or shadowBlur.\n- F…",
+      "truncated": true,
+      "lang": "English",
+      "author": "majidmanzarpour",
+      "authorName": "Majid Manzarpour",
+      "postUrl": "https://x.com/majidmanzarpour/status/2102476258948927543",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102476231740399616/img/c0rCI7sJtWi1Gq5Q.jpg",
+      "likes": 2552,
+      "format": "16:9",
+      "duration": 11,
+      "tags": [
+        "canvas"
+      ],
+      "date": "2026-09-22"
+    },
+    {
+      "id": "2102888241443795431",
+      "category": "generative",
+      "title": "The most impressive fireworks show",
+      "note": "Asks for rhythm, depth and a finale instead of many identical bursts, and a replayable ending.",
+      "prompt": "Yapabileceğin en etkileyici havai fişek veya ışıklı parçacık gösterisini üret. Ortamı ve sanat yönünü sen seç. Tek tip küçük patlamaları çoğaltmak yerine ritmi, derinliği, ışığın çevreye etkisini ve unutulmaz bir final anını tasarla. Gösteri canlı çalışsın; kullanıcı finali tekrar oynatabilsin.\n\nYaratıcı seçimler senin: sahne, sanat yönü, kamera, mekanik, teknoloji ve etkileşimi önceden belirlenmiş sıradan kalıplara sıkıştırma. İlk akla gelen sıradan web demosuyla yetinme: önce kendi alanında birkaç fikri kısaca tart, videoda en güçlü görünecek özgün olanı seç, sonra onu çalışan bir ürüne dönü…",
+      "truncated": true,
+      "lang": "Turkish",
+      "author": "FornYapayZeka",
+      "authorName": "Forn",
+      "postUrl": "https://x.com/FornYapayZeka/status/2102888241443795431",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102871387123724288/img/VWZ6gVvt5QbO7k5x.jpg",
+      "likes": 45,
+      "format": "16:9",
+      "duration": 38,
+      "tags": [
+        "threejs",
+        "shader",
+        "particles"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2102861376184054015",
+      "category": "generative",
+      "title": "Paper-craft fractal visualizer",
+      "note": "Mandelbrot sets that look handmade from paper and cardboard, with a preview before coding.",
+      "prompt": "build an art project which is a fractal visulizer (mandelbrot, etc), but the styles look like handcrafted with paper, cardboard and such. Add post-procesing so it looks cinematic. Also want to use beautitful elaborated animations and transitions and a beautiful UX. Plan it first, show me a preview before coding everything",
+      "truncated": false,
+      "lang": "English",
+      "author": "jrayon",
+      "authorName": "Javi Rayon",
+      "postUrl": "https://x.com/jrayon/status/2102861376184054015",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102851696594464768/img/HIPwBwo6NjVXcIYB.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 35,
+      "tags": [
+        "shader",
+        "webgl",
+        "canvas"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2102906701552726206",
+      "category": "generative",
+      "title": "Gold-leaf mosaic film in raw WebGL2",
+      "note": "No libraries and no asset files. The figures are flocks of tiles.",
+      "prompt": "Make an 80 second square animated film as a single HTML file, using WebGL2 and plain JavaScript, with no libraries and no image, font or audio files. It should look like a glass and gold leaf wall mosaic whose tiles were never glued down, so they can lift, flip, fly and click back into place. Figures are flocks of tiles, so a fish swims by its tiles swimming.",
+      "truncated": false,
+      "lang": "English",
+      "author": "zeezomb",
+      "authorName": "Zee",
+      "postUrl": "https://x.com/zeezomb/status/2102906701552726206",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102906404621172736/img/PG2MnVqREUrWOl4V.jpg",
+      "likes": 0,
+      "format": "1:1",
+      "duration": 80,
+      "tags": [
+        "threejs",
+        "shader"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103232192847524106",
+      "category": "generative",
+      "title": "Fiery samurai routine in plain JavaScript",
+      "note": "A character animation from code only.",
+      "prompt": "make a samurai dude in only javascript and have him doing a routine in a single spot going through various seriously impressive poses and motions and positions in a fiery awesome display",
+      "truncated": false,
+      "lang": "English",
+      "author": "chrisjdimarco",
+      "authorName": "Christopher J. DiMarco",
+      "postUrl": "https://x.com/chrisjdimarco/status/2103232192847524106",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103231768958509057/img/SMHCU_iFp1ClIn5P.jpg",
+      "likes": 6,
+      "format": "16:9",
+      "duration": 19,
+      "tags": [
+        "canvas",
+        "particles",
+        "physics"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2104085484347818226",
+      "category": "games",
+      "title": "Mobile-game reward moment in 3D",
+      "note": "A full art-direction spec: toon shading, edge-detection outlines, rarity-based color tiers.",
+      "prompt": "帮我做一个原创的手游「高光时刻」动效：[主体，例如：开宝箱 / 段位晋升 / 成就解锁 / Boss 掉落 / 角色升级]。\n做成一个可以直接打开的单文件网页（HTML + CSS + JS），点一下就能完整播放，效果对标商业手游的结算 / 奖励演出。\n\n【世界观与风格】\n- 原创美术，不要模仿任何现有游戏的 IP、角色或 Logo。\n- 卡通手游风：高饱和配色，统一的深色描边（例如 #1A1033），圆润厚重的造型。\n- 配色随等级升级：[等级阶梯，例如：普通绿 → 稀有蓝 → 史诗紫 → 传说金]。每升一级都要切换主色、光效颜色和背景色调。\n- 标题用圆胖的游戏字体（如 Titan One / Lilita One），描黑边，加投影；文字逐字「砸」进画面，带回弹。\n\n【主体物：做成真 3D】\n- 用 Three.js 建模，不要用平面 SVG 贴图。要有厚度、倒角，以及符合主体的结构细节（木板缝、铆钉、包边、宝石切面、锁扣等）；木板缝这类细节用真实几何体拼出来，不要贴黑线条。\n- 着色用卡通分阶（MeshToonMaterial 加 3～4 阶的渐变贴图），配三种灯光：主光、天光、等级色的轮廓光。\n- 描边用后期边缘检测：渲染法线图 + 深度图，再用着色器画线。外轮廓粗、零件交界细，粗细全程一致；另外做 1.5 倍超采样和多重采样抗锯齿。\n  不要用「放大一圈的黑色背面」那种描…",
+      "truncated": true,
+      "lang": "Chinese",
+      "author": "op7418",
+      "authorName": "歸藏(guizang.ai)",
+      "postUrl": "https://x.com/op7418/status/2104085484347818226",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2104085291439144961/img/iAeJM8TyuCSzDBKb.jpg",
+      "likes": 1220,
+      "format": "16:9",
+      "duration": 18,
+      "tags": [
+        "canvas",
+        "svg",
+        "gsap",
+        "css"
+      ],
+      "date": "2026-09-27"
+    },
+    {
+      "id": "2103802923465768972",
+      "category": "games",
+      "title": "Find the cats inside a Van Gogh painting",
+      "note": "A 3D walk-around game set in a famous painting.",
+      "prompt": "can you make a 3d game where you walk around and spot cats inside of a van gogh painting? we can start with stary night and its town",
+      "truncated": false,
+      "lang": "English",
+      "author": "MandelDuck",
+      "authorName": "Christian Moss",
+      "postUrl": "https://x.com/MandelDuck/status/2103802923465768972",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103802857933721600/img/5eB4dSCdmilj9D1o.jpg",
+      "likes": 67,
+      "format": "16:9",
+      "duration": 34,
+      "tags": [
+        "threejs",
+        "shader",
+        "canvas"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2102861939072434495",
+      "category": "games",
+      "title": "Browser voxel game with realistic shaders",
+      "note": "No build step: ES modules, procedural terrain, PBR, god rays and a day/night cycle.",
+      "prompt": "Create a playable version of Minecraft in my browser. Add advanced shaders that make it look as real and beautiful as possible.\n\nWorld: vanilla ES modules + three.js (importmap from jsdelivr, no build step). Procedural voxel terrain with trees, beaches and water. Make it look as real and beautiful as possible: physically based sky, clouds, soft shadows, water reflections and caustics, god rays, bloom, PBR block textures. First/third-person player (V toggles), mining and placing blocks, torches, stairs, a hotbar and an inventory (E), a day/night cycle with nights that are still readable.\n\nC…",
+      "truncated": true,
+      "lang": "English",
+      "author": "Viggle_PINOC",
+      "authorName": "PINOC",
+      "postUrl": "https://x.com/Viggle_PINOC/status/2102861939072434495",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2102859066372481024/img/A7jckjbWbDkd-Jgr.jpg",
+      "likes": 16,
+      "format": "16:9",
+      "duration": 55,
+      "tags": [
+        "threejs",
+        "shader",
+        "canvas"
+      ],
+      "date": "2026-09-23"
+    },
+    {
+      "id": "2103128800909197521",
+      "category": "games",
+      "title": "Top-down racer inspired by a 1997 classic",
+      "note": "A full stack spec with original assets only and custom 2.5D physics.",
+      "prompt": "Build a racing game inspired by Ignition (1997): angled top-down camera, arcade-leaning\nphysics, vehicles with very distinct personalities. This must be an original game,\nnot a copy. Use an original name, an original track, and zero original assets.\n\n## Stack\n- Vite + TypeScript (strict), Three.js for rendering, no UI framework\n  (HUD in plain DOM/CSS).\n- Low-poly graphics generated in code (BoxGeometry, CylinderGeometry, etc.),\n  no external models or textures. Solid colors and simple materials.\n- Custom simplified 2.5D physics (movement on the XZ plane, height from terrain).\n  No physics eng…",
+      "truncated": true,
+      "lang": "English",
+      "author": "_nieGRAMotny_",
+      "authorName": "nieGRAMotny",
+      "postUrl": "https://x.com/_nieGRAMotny_/status/2103128800909197521",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103128542816980992/img/eWA2Tz9UT3ns7Ikg.jpg",
+      "likes": 10,
+      "format": "16:9",
+      "duration": 30,
+      "tags": [
+        "threejs",
+        "shader",
+        "canvas",
+        "physics"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103789415323562325",
+      "category": "games",
+      "title": "Police-chase arcade game from a PRD",
+      "note": "Written as a product requirements doc: vision, input, core loop.",
+      "prompt": "PRD — Police Chase Arcade Game\n\nWorking title: Heatwave\nPlatform: iOS + Android\nEngine: Unity\nGenre: Top-down 3D arcade chase / survival\nOrientation: Portrait\nInput: One-thumb touch controls\nBusiness model: TBD — design MVP around gameplay first\nPrimary goal: Build a genuinely fun playable prototype before adding progression or monetization.\n⸻\nProduct vision\nA fast, chaotic mobile arcade game where the player is constantly being pursued by increasingly aggressive police.\nThe player cannot directly attack.\nInstead, they survive by driving aggressively, drifting around obstacles, making sudden t…",
+      "truncated": true,
+      "lang": "English",
+      "author": "froessell",
+      "authorName": "✌︎ frederik ✌︎",
+      "postUrl": "https://x.com/froessell/status/2103789415323562325",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103788548369309696/img/F-9fe6PFR5FHOeUM.jpg",
+      "likes": 222,
+      "format": "16:9",
+      "duration": 59,
+      "tags": [
+        "threejs",
+        "canvas",
+        "physics",
+        "playable"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103804606794879327",
+      "category": "games",
+      "title": "Squad space battle against a capital ship",
+      "note": "A multiplayer premise with objectives and enemy waves.",
+      "prompt": "A 3D multiplayer game where the players are a squad of x-wings taking on a star destroyer. They pilot their ships to take out key components of the star destroyer while also dealing with guns mounted on the star destroyer and waves of tie fighters.",
+      "truncated": false,
+      "lang": "English",
+      "author": "0xChuckstock",
+      "authorName": "chuckstock",
+      "postUrl": "https://x.com/0xChuckstock/status/2103804606794879327",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103590472900120576/img/H_-C-r4lyNnOKPRe.jpg",
+      "likes": 17,
+      "format": "16:9",
+      "duration": 28,
+      "tags": [
+        "threejs",
+        "shader",
+        "playable"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103181065976459574",
+      "category": "games",
+      "title": "Cartoon battle-royale HUD",
+      "note": "Lists the UI pieces: storm timer, minimap, hotbar, emote wheel, results screen.",
+      "prompt": "A cartoony battle royale: storm timer, players alive, inventory hotbar, minimap, emote wheel and a victory results screen",
+      "truncated": false,
+      "lang": "English",
+      "author": "MyCodeCoach",
+      "authorName": "Code Coach",
+      "postUrl": "https://x.com/MyCodeCoach/status/2103181065976459574",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103177704413741056/img/5fh9uUPpAzTe-q2m.jpg",
+      "likes": 26,
+      "format": "16:9",
+      "duration": 185,
+      "tags": [
+        "threejs",
+        "svg"
+      ],
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2103763192971461057",
+      "category": "games",
+      "title": "1-on-1 card game in pixel art",
+      "note": "\"Just make it. As best you can.\"",
+      "prompt": "Create a 1-on-1 card game like Hearthstone.\nJust make it. As best you can.\nIn pixel art style.",
+      "truncated": false,
+      "lang": "English",
+      "author": "aisongman",
+      "authorName": "AiSongMan｜AI Workflow Lab",
+      "postUrl": "https://x.com/aisongman/status/2103763192971461057",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103761863293157376/img/0ejMz2vvqlYArnMO.jpg",
+      "likes": 1,
+      "format": "16:9",
+      "duration": 15,
+      "tags": [
+        "canvas",
+        "pixel",
+        "playable"
+      ],
+      "date": "2026-09-26"
+    },
+    {
+      "id": "2103437714695843891",
+      "category": "games",
+      "title": "Retro strategy game with a classic vibe",
+      "note": "A one-line genre reference.",
+      "prompt": "Make a game like Romance of the Three Kingdoms III with a retro, pixelated classic vibe.",
+      "truncated": false,
+      "lang": "English",
+      "author": "opener_ai",
+      "authorName": "Jin.B",
+      "postUrl": "https://x.com/opener_ai/status/2103437714695843891",
+      "poster": "https://pbs.twimg.com/amplify_video_thumb/2103435827250659328/img/zKyN6oDAYgx-t6kK.jpg",
+      "likes": 0,
+      "format": "16:9",
+      "duration": 32,
+      "tags": [
+        "canvas",
+        "pixel",
+        "playable"
+      ],
+      "date": "2026-09-25"
+    }
+  ]
+}
