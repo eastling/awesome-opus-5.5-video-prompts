@@ -1,6 +1,7 @@
-// Generates README.md and categories/*.md from data/prompts.json.
+// Generates README.md, categories/*.md and the GitHub Pages gallery (docs/index.html) from data/prompts.json.
 // Usage: node scripts/build.mjs
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { renderPage } from "./page.mjs";
 
 const root = new URL("../", import.meta.url);
 const { categories, templates, prompts } = JSON.parse(readFileSync(new URL("data/prompts.json", root), "utf8"));
@@ -45,15 +46,15 @@ ${code(t.prompt)}
 **Structure that works:** ${t.structure}.
 `;
 
-const tips = `## What the best prompts have in common
-
-- **Collect assets first.** Several of the most-liked prompts open with an "Ask me for:" list (product name, UI states, a royalty-free song) so the model has real material before it writes a frame.
-- **Ban the AI tells.** Name what you don't want: corner labels, fake UI frames, particle bursts, lens flares, camera shake.
-- **Give timing in numbers.** Seconds per beat, camera moves of 1.5–3 s, a hook in the first second, the end card held for the last 15%.
-- **Make rendering deterministic.** "Every frame is a pure function of time" or "one draw(t) function" lets the video render frame by frame without dropped or jittery frames.
-- **Sync to sound.** Ask for cuts on the beat, or for a soundtrack synthesized in code so timing is exact.
-- **Set the bar with a reference.** "Like a showreel for a résumé", "like it won an Emmy for main title design", "Apple keynote".
-`;
+const TIPS = [
+  ["Collect assets first.", "Several of the most-liked prompts open with an \"Ask me for:\" list (product name, UI states, a royalty-free song) so the model has real material before it writes a frame."],
+  ["Ban the AI tells.", "Name what you don't want: corner labels, fake UI frames, particle bursts, lens flares, camera shake."],
+  ["Give timing in numbers.", "Seconds per beat, camera moves of 1.5–3 s, a hook in the first second, the end card held for the last 15%."],
+  ["Make rendering deterministic.", "\"Every frame is a pure function of time\" or \"one draw(t) function\" lets the video render frame by frame without dropped or jittery frames."],
+  ["Sync to sound.", "Ask for cuts on the beat, or for a soundtrack synthesized in code so timing is exact."],
+  ["Set the bar with a reference.", "\"Like a showreel for a résumé\", \"like it won an Emmy for main title design\", \"Apple keynote\"."],
+];
+const tips = `## What the best prompts have in common\n\n${TIPS.map(([h, t]) => `- **${h}** ${t}`).join("\n")}\n`;
 
 const howItWorks = `## How Opus 5.5 makes videos
 
@@ -65,6 +66,8 @@ Want to try one without setting anything up? [opus6.video](${utm()}) turns a pro
 const intro = (count) => `# Awesome Opus 5.5 Video Prompts [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > ${count} hand-picked prompts people used to make videos with Claude Opus 5.5: motion graphics showreels, product launch films, UI animations, explainers, music videos, 3D scenes and games. Each one has a preview, a link to the original post, and a note on what makes it work.
+
+**[Browse them as a searchable gallery →](https://eastling.github.io/awesome-opus-5.5-video-prompts/)**
 `;
 
 const footer = `## Contributing
@@ -124,4 +127,9 @@ ${list.map(entry).join("\n")}
   writeFileSync(new URL(`categories/${c.id}.md`, root), page);
 }
 
-console.log(`README.md: ${prompts.length} prompts, ${templates.length} templates; ${categories.length} category pages`);
+// GitHub Pages gallery (served from /docs).
+mkdirSync(new URL("docs/", root), { recursive: true });
+writeFileSync(new URL("docs/index.html", root), renderPage({ categories, templates, prompts, tips: TIPS, utm }));
+writeFileSync(new URL("docs/.nojekyll", root), "");
+
+console.log(`README.md: ${prompts.length} prompts, ${templates.length} templates; ${categories.length} category pages; docs/index.html`);

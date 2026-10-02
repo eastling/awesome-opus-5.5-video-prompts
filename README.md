@@ -2,6 +2,8 @@
 
 > 90 hand-picked prompts people used to make videos with Claude Opus 5.5: motion graphics showreels, product launch films, UI animations, explainers, music videos, 3D scenes and games. Each one has a preview, a link to the original post, and a note on what makes it work.
 
+**[Browse them as a searchable gallery →](https://eastling.github.io/awesome-opus-5.5-video-prompts/)**
+
 ## Contents
 
 - [How Opus 5.5 makes videos](#how-opus-55-makes-videos)
